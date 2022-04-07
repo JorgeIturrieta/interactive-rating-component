@@ -13,7 +13,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     -   [What I learned](#what-i-learned)
 -   [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [GITHUB CODE](https://github.com/JorgeIturrieta/interactive-rating-component)
+-   Live Site URL: [LIVE SOLUTION](https://jorgeiturrieta.github.io/interactive-rating-component/)
 
 ## My process
 
