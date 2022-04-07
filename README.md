@@ -32,8 +32,8 @@ Users should be able to:
 ![](./Screenshot2.png)
 
 ### Links
-
--   Solution URL: [GITHUB CODE](https://github.com/JorgeIturrieta/interactive-rating-component)
+-   Solution URL: [codepen](https://codepen.io/jiturrieta/pen/qBpxzNO)
+-   Github Respository: [GITHUB REPOSITORY](https://github.com/JorgeIturrieta/interactive-rating-component)
 -   Live Site URL: [LIVE SOLUTION](https://jorgeiturrieta.github.io/interactive-rating-component/)
 
 ## My process
