@@ -20,7 +20,7 @@ function handleSubmit() {
     card.classList.add('card__flex');
     card.innerHTML =
         card.innerHTML +
-        `<div class="ilustration-container" >
+        `<div role="figure" class="ilustration-container" >
         <img src="./images/illustration-thank-you.svg" alt="thank-you"/>       
         </div>
         <p class="number-selected">You selected ${currentNumber} out of 5</p>
