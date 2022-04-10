@@ -20,12 +20,17 @@ body {
     font-family: 'Overpass', sans-serif;
     background-color: var(--neutral-very-dark-blue);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
     padding: 0 1.5rem;
 }
-
+.wrapper_main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
 .card {
     width: 360px;
     background-color: var(--neutral-dark-blue);
@@ -80,7 +85,6 @@ img {
     align-items: center;
     transition: background-color 0.2s ease-in-out;
 }
-
 .active {
     background-color: var(--neutral-light-grey);
     color: var(--neutral-white);
@@ -100,6 +104,11 @@ img {
     cursor: pointer;
 }
 
+.btn:active,
+.btn-number:active {
+    transform: scale(0.9);
+    transition: transform 0.2s;
+}
 /* Thank you modal Styles */
 .card__flex {
     display: flex;
@@ -126,11 +135,10 @@ img {
 
 /* Footer */
 .attribution {
+    padding: 0.8rem 0.5rem;
     font-size: 12px;
     text-align: center;
-    position: fixed;
     color: var(--neutral-white);
-    bottom: 20px;
 }
 .attribution a {
     color: var(--neutral-light-grey);
